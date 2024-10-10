@@ -1,0 +1,29 @@
+.container{
+    display: flex;
+    width: 960px;
+    height: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: red 2px solid;
+    height: 960px;
+    gap: 0;
+
+}
+
+.box{
+    margin: 0;
+    padding: 0;
+    height: auto;
+    border: blue 2px solid;
+    box-sizing: border-box;
+   
+
+}
+
+body{
+    text-align: center;
+}
+
+.box :hover {
+    background-color: pink;
+}
